@@ -95,9 +95,9 @@ body {
 }
 .footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     color: #3d1101;
-    padding: 50px 4%;
+    padding: 50px 42px;
 }
 .footer h2 {
     font-size: 24px;
@@ -108,7 +108,7 @@ body {
     justify-content: flex-start;
 }
 .about, .contact {
-    width: 290px;
+    flex: 0 0 260px;
     line-height: 20px;
 }
 .contact li {
@@ -128,4 +128,39 @@ body {
 }
 .iconFacebook {
     color: #3a5795;
+}
+@media (max-width: 768px) {
+    .menu {
+        padding: 16px 18px;
+    }
+    .footer {
+        padding: 52px 18px;
+    }
+}
+@media (max-width: 736px) {
+    .menu {
+        padding: 16px 42px;
+    }
+    .footer {
+        padding: 52px 42px;
+        flex-direction: column;
+    }
+    .iconGroup {
+        margin: 32px 0 0 0;
+    }
+    .social {
+        text-align: left;
+    }
+}
+@media (max-width: 568px) {
+    .info {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .about, .contact {
+        flex: 0 0 150px;
+    }
+    .iconGroup {
+        margin: 0;
+    }
 }
