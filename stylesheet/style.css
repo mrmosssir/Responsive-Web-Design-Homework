@@ -1,0 +1,131 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+    font-family: 'Arial', '微軟正黑體';
+}
+.wrap {
+    max-width: 1024px;
+    background: #efe9e7;
+    margin: 0 auto;
+}
+.header {
+    height: 420px;
+    background-image: url("../images/header_desktop.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 16px 42px;
+}
+.menu ul {
+    display: flex;
+    justify-content: flex-start;
+}
+.menu li {
+    font-size: 16px;
+    color: #ffffff;
+    margin: 5px 0 0 30px;
+}
+.banner {
+    max-width: 460px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    padding: 20px 30px;
+    margin: 0 auto;
+    margin-top: 67px;
+    box-sizing: border-box;
+}
+.banner h1 {
+    text-align: center;
+    font-size: 36px;
+    margin: 0 0 16px 0;
+}
+.banner p {
+    text-align: center;
+    margin: 0 0 6px 0;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    color: #3d1101;
+    padding: 50px 4%;
+}
+.footer h2 {
+    font-size: 24px;
+    margin: 0 0 20px 0;
+}
+.info {
+    display: flex;
+    justify-content: flex-start;
+}
+.about, .contact {
+    width: 290px;
+    line-height: 20px;
+}
+.contact li {
+    list-style: disc;
+    list-style-position: inside;
+}
+.social {
+    text-align: right;
+    font-size: 36px;
+    margin: 20px 0 0 0;
+}
+.iconGoogle {
+    color: #db4437;
+}
+.iconTwitter {
+    color: #41abe1;
+}
+.iconFacebook {
+    color: #3a5795;
+}
